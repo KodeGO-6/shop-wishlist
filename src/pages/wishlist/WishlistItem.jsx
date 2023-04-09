@@ -15,7 +15,7 @@ export const WishlistItem = (props) => {
                 onClick={() => addToLikes(props.data.id)}>
                     <Heart 
                         size={32} 
-                        style={{color: likeItems[props.data.id] !== true ? 'white': 'red'}}/>
+                        style={{color: likeItems[props.data.id] !== true ? 'black': 'red'}}/>
             </button>
         </div>
     </div>

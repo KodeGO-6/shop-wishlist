@@ -24,7 +24,7 @@ export const Product = () => {
                             onClick={() => addToLikes(product.id)}> 
                                 <Heart 
                                     size={32} 
-                                    style={{color: likeItems[product.id] !== true ? 'white': 'red'}}/>
+                                    style={{color: likeItems[product.id] !== true ? 'black': 'red'}}/>
                         </button>
                     </div>
                 </div>
